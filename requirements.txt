@@ -47,13 +47,10 @@ tzdata==2023.4
 urllib3==2.2.0
 wheel==0.42.0
 wrapt==1.16.0
-<<<<<<< HEAD
 pillow
 django-cors-headers
-=======
 scikit-learn
 gradio_client
 numpy
 openai
 firebase-admin
->>>>>>> f312f15a6dc800f12f85fe822c28c3ca622ecaaa

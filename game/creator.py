@@ -26,7 +26,6 @@ def createGame(theme, user_id):
     # print("processed_theme: ", processed_theme)
     parsed_theme = parse_processed_theme(processed_theme)
     # print("parsed_theme: ",parsed_theme)
-
     # image_assets = get_image_assets(most_similar_game)
     print("\n------------------image_assets------------------")
     thumbnail_url = generate_thumbnail(user_id, most_similar_game, parsed_theme['thumbnail'], game_directory)
