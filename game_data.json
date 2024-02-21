@@ -1,0 +1,217 @@
+[
+  {
+    "image_asset": [
+      {
+        "asset_name": "ball",
+        "path": "./games/CustomBasketball/assets/images/ball.png",
+        "descriptions": "main ball to be shot",
+        "dimensions_x": "120",
+        "dimensions_y": "120",
+        "type": "1",
+        "style": "fantasy-art"
+      }
+    ],
+    "sound_assets": [
+      {
+        "soundName": "score",
+        "path": "scoring sound",
+        "descriptions": "./games/CustomBasketball/assets/audio/score.wav",
+        "duration": "1"
+      }
+    ],
+    "game_name": "Basketball",
+    "descriptions": "A basketball to be thrown into a basket on swipe. Aiming single player game with projectile motion of a ball.",
+    "search_descriptions": "This game simulates a basketball experience where the player's objective is to throw a basketball into a hoop by swiping on the screen. The game uses realistic projectile motion physics to determine the arc and distance of the ball's flight based on the speed and direction of the swipe. It's a single-player game focused on aiming, offering various levels of difficulty by changing the distance to the basket and adding obstacles. Players can enjoy honing their virtual basketball skills, experiencing the thrill of making perfect shots through precise swipes."
+  },
+  {
+    "image_asset": [
+      {
+        "asset_name": "color1-sheet0",
+        "path": "./games/Customredgreen/images/color1-sheet0.png",
+        "descriptions": "the small items of First varient",
+        "dimensions_x": "55",
+        "dimensions_y": "55",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "asset_name": "color1-sheet1",
+        "path": "./games/Customredgreen/images/color1-sheet1.png",
+        "descriptions": "the tall items of first varient",
+        "dimensions_x": "55",
+        "dimensions_y": "55",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "asset_name": "color2-sheet0",
+        "path": "./games/Customredgreen/images/color2-sheet0.png",
+        "descriptions": "the small items of second varient",
+        "dimensions_x": "55",
+        "dimensions_y": "55",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "asset_name": "color2-sheet1",
+        "path": "./games/Customredgreen/images/color2-sheet1.png",
+        "descriptions": "the tall items of second varient",
+        "dimensions_x": "55",
+        "dimensions_y": "55",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "asset_name": "bggame",
+        "path": "./games/Customredgreen/images/background2-sheet0.png",
+        "descriptions": "background infront of which the items are falling.",
+        "dimensions_x": "1280",
+        "dimensions_y": "1380",
+        "type": "2",
+        "style": "fantasy-art"
+      },
+      {
+        "asset_name": "color1and2",
+        "path": "./games/Customredgreen/images/boxes-sheet0.png",
+        "descriptions": "items together",
+        "dimensions_x": "1024",
+        "dimensions_y": "1024",
+        "type": "3",
+        "style": "fantasy-art"
+      }
+    ],
+    "sound_assets": [
+      {
+        "soundName": "loose",
+        "path": "./games/Customredgreen/cboxes/media/lose.ogg",
+        "descriptions": "loosing sound",
+        "duration": "1"
+      },
+      {
+        "soundName": "color1",
+        "path": "./games/Customredgreen/cboxes/media/color1.ogg",
+        "descriptions": "color1 sound",
+        "duration": "1"
+      },
+      {
+        "soundName": "color2",
+        "path": "./games/Customredgreen/cboxes/media/color2.ogg",
+        "descriptions": "color2 sound",
+        "duration": "1"
+      }
+    ],
+    "game_name": "redgreen",
+    "descriptions": "Items falling from the top onto the snow-filled ground. On clicking the items the color of the items will change. one variety are the red ones and the other are the green ones",
+    "search_descriptions": "In this game, various items fall from the sky onto a snowy ground. The player's task is to change the color of these falling items by clicking on them. The items come in two main varieties: red and green. The gameplay mechanic involves quick reflexes and decision-making to click on the items, changing their colors before they touch the ground. This simple yet engaging game tests the player's speed and accuracy in a winter-themed setting."
+  },
+  {
+    "image_asset": [
+      {
+        "asset_name": "ball",
+        "path": "./games/CustomSavethecow/assets/ball.png",
+        "descriptions": "the item falling from top",
+        "dimensions_x": "175",
+        "dimensions_y": "173",
+        "type": "1",
+        "style": "pixel-art"
+      },
+      {
+        "asset_name": "bgGame",
+        "path": "./games/CustomSavethecow/assets/bgGame.jpg",
+        "descriptions": "background infront of which the main character stands",
+        "dimensions_x": "768",
+        "dimensions_y": "1024",
+        "type": "2",
+        "style": "pixel-art"
+      },
+      {
+        "asset_name": "conMain.png",
+        "path": "./games/CustomSavethecow/assets/conMain.png",
+        "descriptions": "thumbnail or intro screen.",
+        "dimensions_x": "768",
+        "dimensions_y": "1024",
+        "type": "2",
+        "style": "pixel-art"
+      },
+      {
+        "asset_name": "player.png",
+        "path": "./games/CustomSavethecow/assets/player.png",
+        "descriptions": "main character which saves the item falling",
+        "dimensions_x": "1520",
+        "dimensions_y": "260",
+        "type": "3",
+        "style": "pixel-art"
+      }
+    ],
+    "sound_assets": [
+      {
+        "soundName": "ball_hit_floor",
+        "path": "./games/CustomSavethecow/assets/sounds/ball_hit_floor.ogg",
+        "descriptions": "when item hits the floor.",
+        "duration": "1"
+      },
+      {
+        "soundName": "ball_hit_player",
+        "path": "./games/CustomSavethecow/assets/sounds/ball_hit_player.ogg",
+        "descriptions": "when item hits the floor.",
+        "duration": "1"
+      },
+      {
+        "soundName": "click",
+        "path": "./games/CustomSavethecow/assets/sounds/click.ogg",
+        "descriptions": "the sound on click",
+        "duration": "1"
+      },
+      {
+        "soundName": "fail",
+        "path": "./games/CustomSavethecow/assets/sounds/fail.ogg",
+        "descriptions": "the sound when the user fails the game",
+        "duration": "1"
+      },
+      {
+        "soundName": "score",
+        "path": "./games/CustomSavethecow/assets/sounds/score.ogg",
+        "descriptions": "the sound when final score comes.",
+        "duration": "1"
+      }
+    ],
+    "game_name": "Savethecow",
+    "descriptions": "An item falls from top and the user tilts the phone to control the main character. The main character tries to sve the falling item. if the item falls the character looses a life.",
+    "search_descriptions": "An object falls from the top of the screen, and the player uses the phone's tilt controls to move the main character left or right to catch the falling item. Failing to catch the item results in the character losing a life. This game tests the player's hand-eye coordination and response time, as they must quickly adjust their movements to ensure the main character is in the right place at the right time."
+  },
+  {
+    "image_asset": [
+      {
+        "asset_name": "background-sheet0",
+        "path": "./games/CustomJumpyball/images/background-sheet0.png",
+        "descriptions": "background image",
+        "dimensions_x": "480",
+        "dimensions_y": "854",
+        "type": "2",
+        "style": "fantasy-art"
+      },
+      {
+        "asset_name": "camera-sheet0",
+        "path": "./games/CustomJumpyball/images/camera-sheet0.png",
+        "descriptions": "the item that jumps",
+        "dimensions_x": "135",
+        "dimensions_y": "212",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "asset_name": "sprite-sheet0",
+        "path": "./games/CustomJumpyball/images/sprite-sheet0.png",
+        "descriptions": "platform on which the item lands.",
+        "dimensions_x": "322",
+        "dimensions_y": "56",
+        "type": "1",
+        "style": "fantasy-art"
+      }
+    ],
+    "sound_assets": [],
+    "game_name": "Jumpyball",
+    "descriptions": "An item jumps from ground to top and lands on bridges in between. The bridges come from both side and can destroy the main item if it fails to jump on time. The game continues untill the main item is destroyed.",
+    "search_descriptions": "An item jumps from ground to top and lands on bridges in between. The bridges come from both side and can destroy the main item if it fails to jump on time. The game continues untill the main item is destroyed."
+  }
+]

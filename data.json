@@ -1,0 +1,260 @@
+{
+  "flappyBird": {
+    "game_name": "flappyBird",
+    "descriptions": "Flappy Bird: A bird is flying in the sky and player needs to help it dodge stationary obstacles",
+    "data": [
+      {
+        "assetName": "topObstacle",
+        "path": "./games/CustomflappyBird/img/toppipe.png",
+        "descriptions": "This should represent something or someone the main character needs to avoid in the game environment, this obstacle is something that is preferably in the sky and would replace the top pipe",
+        "dimentionsX": "82",
+        "dimentionsY": "450",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "botObstacle",
+        "path": "./games/CustomflappyBird/img/botpipe.png",
+        "descriptions": "Another element in the game that poses a challenge to the main character that is preferably on the ground.",
+        "dimentionsX": "82",
+        "dimentionsY": "450",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "mainCharacter",
+        "path": "./games/CustomflappyBird/img/bird/v2.png",
+        "descriptions": " A representation of the main theme in a creative and thematic way",
+        "dimentionsX": "40",
+        "dimentionsY": "62",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "backGroundImage",
+        "path": "./games/CustomflappyBird/img/BG.png",
+        "descriptions": " A scene that sets the environment where the action takes place",
+        "dimentionsX": "1000",
+        "dimentionsY": "1000",
+        "type": "2",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "ground",
+        "path": "./games/CustomflappyBird/img/ground.png",
+        "descriptions": " The ground which moves in the bottom for the 2D game",
+        "dimentionsX": "700",
+        "dimentionsY": "112",
+        "type": "2",
+        "style": "fantasy-art"
+      }
+    ]
+  },
+  "wackaMole": {
+    "game_name": "wackaMole",
+    "descriptions": "Whack a mole: A mole pops out of random locations at random times and user have to catch or hit it",
+    "data": [
+      {
+        "assetName": "Mole",
+        "path": "./games/CustomwackaMole/css/mole.png",
+        "descriptions": "A character or element that players will try to catch, find, or 'whack'",
+        "dimentionsX": "346",
+        "dimentionsY": "413",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "Hole",
+        "path": "./games/CustomwackaMole/css/hole.png",
+        "descriptions": "A representation of where this character or element can hide.",
+        "dimentionsX": "210",
+        "dimentionsY": "76",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "Background",
+        "path": "./games/CustomwackaMole/css/background.png",
+        "descriptions": "A visually rich scene that encapsulates the essence of, providing an immersive backdrop for the game",
+        "dimentionsX": "1920",
+        "dimentionsY": "1080",
+        "type": "2",
+        "style": "fantasy-art"
+      }
+    ]
+  },
+  "bunnyHunt": {
+    "game_name": "bunnyHunt",
+    "descriptions": "Bunny Hunt: A mole pops out of random locations at random times and user have to catch or hit it",
+    "data": [
+      {
+        "assetName": "Bunny1",
+        "path": "./games/CustombunnyHunt/images/bunny1.png",
+        "descriptions": "Name of the main character or element of the game with a very small description",
+        "dimentionsX": "119",
+        "dimentionsY": "456",
+        "type": "3",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "Bunny2",
+        "path": "./games/CustombunnyHunt/images/bunny2.png",
+        "descriptions": "Name of the main character or element of the game with a very small description",
+        "dimentionsX": "119",
+        "dimentionsY": "456",
+        "type": "3",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "Bunny3",
+        "path": "./games/CustombunnyHunt/images/bunny3.png",
+        "descriptions": "Name of the main character or element of the game with a very small description",
+        "dimentionsX": "119",
+        "dimentionsY": "456",
+        "type": "3",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "Bunny4",
+        "path": "./games/CustombunnyHunt/images/bunny4.png",
+        "descriptions": "Name of the main character or element of the game with a very small description",
+        "dimentionsX": "119",
+        "dimentionsY": "456",
+        "type": "3",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "Bunny5",
+        "path": "./games/CustombunnyHunt/images/bunny5.png",
+        "descriptions": "Name of the main character or element of the game with a very small description",
+        "dimentionsX": "119",
+        "dimentionsY": "456",
+        "type": "3",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "Background",
+        "path": "./games/CustombunnyHunt/images/stage.jpg",
+        "descriptions": "A scene that sets the environment where the action takes place",
+        "dimentionsX": "800",
+        "dimentionsY": "400",
+        "type": "2",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "Splash",
+        "path": "./games/CustombunnyHunt/images/splash.jpg",
+        "descriptions": "A loader screen that features main character and the environment where the action takes place",
+        "dimentionsX": "800",
+        "dimentionsY": "400",
+        "type": "2",
+        "style": "fantasy-art"
+      }
+    ]
+  },
+  "hajmola": {
+    "game_name": "hajmola",
+    "descriptions": "A main element gets bigger on tap and few more elemets around it float. the main element needs to save itself from other elemets or else it will get smaller on touching the floating elements.",
+    "data": [
+      {
+        "assetName": "main",
+        "path": "./games/Customhajmola/assets/expandassets.png",
+        "descriptions": "the main element which grows big on tap",
+        "dimentionsX": "1024",
+        "dimentionsY": "512",
+        "type": "3",
+        "style": "fantasy-art"
+      }
+    ]
+  },
+  "Basketball": {
+    "game_name": "Basketball",
+    "descriptions": "A basketball to be thrown into a basket on swipe. Single player aiming game with projectile motion of a ball.",
+    "data": [
+      {
+        "assetName": "ball",
+        "path": "./games/CustomBasketball/assets/images/ball.png",
+        "descriptions": "main ball to be shot",
+        "dimentionsX": "120",
+        "dimentionsY": "120",
+        "type": "1",
+        "style": "fantasy-art"
+      }
+    ]
+  },
+  "Savethecow": {
+    "game_name": "Savethecow",
+    "descriptions": "An item falls from top and the user tilts the phone to control the main character. The main character tries to sve the falling item. if the item falls the character looses a life.",
+    "data": [
+      {
+        "assetName": "ball",
+        "path": "./games/CustomSavethecow/assets/ball.png",
+        "descriptions": "Single item falling from top",
+        "dimentionsX": "175",
+        "dimentionsY": "173",
+        "type": "1",
+        "style": "pixel-art"
+      },
+      {
+        "assetName": "bgGame",
+        "path": "./games/CustomSavethecow/assets/bgGame.jpg",
+        "descriptions": "background",
+        "dimentionsX": "768",
+        "dimentionsY": "1024",
+        "type": "2",
+        "style": "pixel-art"
+      },
+      {
+        "assetName": "conMain.png",
+        "path": "./games/CustomSavethecow/assets/conMain.png",
+        "descriptions": "thumbnail or intro screen.",
+        "dimentionsX": "768",
+        "dimentionsY": "1024",
+        "type": "2",
+        "style": "pixel-art"
+      },
+      {
+        "assetName": "player.png",
+        "path": "./games/CustomSavethecow/assets/player.png",
+        "descriptions": "main character",
+        "dimentionsX": "1520",
+        "dimentionsY": "260",
+        "type": "1",
+        "style": "pixel-art"
+      }
+    ]
+  },
+  "Jumpyball": {
+    "game_name": "Jumpyball",
+    "descriptions": "An item jumps from ground to top and lands on bridges in between. The bridges come from both side and can destroy the main item if it fails to jump on time. The game continues untill the main item is destroyed.",
+    "data": [
+      {
+        "assetName": "background-sheet0",
+        "path": "./games/CustomJumpyball/images/background-sheet0.png",
+        "descriptions": "background image",
+        "dimentionsX": "480",
+        "dimentionsY": "854",
+        "type": "2",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "camera-sheet0",
+        "path": "./games/CustomJumpyball/images/camera-sheet0.png",
+        "descriptions": "the item that jumps",
+        "dimentionsX": "135",
+        "dimentionsY": "212",
+        "type": "1",
+        "style": "fantasy-art"
+      },
+      {
+        "assetName": "sprite-sheet0",
+        "path": "./games/CustomJumpyball/images/sprite-sheet0.png",
+        "descriptions": "platform on which the item lands.",
+        "dimentionsX": "322",
+        "dimentionsY": "56",
+        "type": "2",
+        "style": "fantasy-art"
+      }
+    ]
+  } 
+}
